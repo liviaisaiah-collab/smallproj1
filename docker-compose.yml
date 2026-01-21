@@ -12,6 +12,12 @@ services:
   web:
     build: ./webserver
     restart: always
+    environment:
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_DATABASE: spdb
+      DB_USERNAME: root
+      DB_PASSWORD: mysqlrootpassword21
     ports:
       - "8080:80"
     depends_on:

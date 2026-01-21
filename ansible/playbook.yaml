@@ -36,6 +36,12 @@
       community.docker.docker_container:
         name: web
         image: ghcr.io/liviaisaiah-collab/smallproj1-webserver:latest
+        env:
+          DB_HOST: db
+          DB_PORT: 3306
+          DB_DATABASE: spdb
+          DB_USERNAME: root
+          DB_PASSWORD: mysqlrootpassword21
         ports:
           - "80:80"
         networks:
