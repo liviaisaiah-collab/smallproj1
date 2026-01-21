@@ -30,3 +30,4 @@ Basically using Git in this context boils down to:
         - Comments have a status of active, pending, and resolved. If a comment is active or pending the pull request owner will not be able to complete it
             - If a comment is left, the pull request author should mark it pending after a change has been made to address it and the comment author and mark it as resolved. 
         - I'm thinking about making the policy that each pull request needs 2 approvals from members of the team that are not the author to be merged in. This ensures that most of the team is aware of what work is going into the codebase.
+        teamwork
